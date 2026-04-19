@@ -220,6 +220,9 @@ export default function LandingPage() {
           id: "q2",          title: "Can I switch courses?",          content: "You can change courses within the first 7 days if it's not a match."},
         {
           id: "q3",          title: "Are there certificates?",          content: "Yes, we provide industry-recognized certificates after course completion."},
+        {
+          id: "q4",          title: "How does SkillGrid help with job placement?",          content: "We provide personalized career coaching, resume building workshops, and direct access to our network of partner employers to help you land your dream role."
+        },
       ]}
       title="Frequently Asked Questions"
       description="Answers to the most common questions about our courses."
