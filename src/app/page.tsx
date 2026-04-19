@@ -70,7 +70,7 @@ export default function LandingPage() {
           href: "#pricing",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/focused-caucasian-woman-wearing-vr-headset_74855-4216.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/focused-caucasian-woman-wearing-vr-headset_74855-4216.jpg?_wi=1"
       imageAlt="student coding high tech classroom"
       avatars={[
         {
@@ -139,7 +139,7 @@ export default function LandingPage() {
           description: "Build real-world solutions that matter.",
           bentoComponent: "reveal-icon",
           icon: Zap,
-          imageSrc: "http://img.b2bpic.net/free-photo/focused-caucasian-woman-wearing-vr-headset_74855-4216.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/focused-caucasian-woman-wearing-vr-headset_74855-4216.jpg?_wi=2",
           imageAlt: "coding development icons minimal",
         },
         {
