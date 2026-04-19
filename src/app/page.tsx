@@ -39,7 +39,7 @@ export default function LandingPage() {
         {
           name: "Testimonials",          id: "#testimonials"},
         {
-          name: "Contact",          id: "#contact"},
+          name: "Enroll Now",          id: "#contact"},
       ]}
       brandName="SkillGrid"
     />
@@ -53,9 +53,9 @@ export default function LandingPage() {
       description="Accelerate your career in software development, data science, and digital business. Join 10,000+ students mastering in-demand skills today."
       buttons={[
         {
-          text: "Get Started",          href: "#catalog"},
+          text: "View Catalog",          href: "#catalog"},
         {
-          text: "View Pricing",          href: "#pricing"},
+          text: "Get Started Now",          href: "#contact"},
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/focused-caucasian-woman-wearing-vr-headset_74855-4216.jpg"
       imageAlt="student coding high tech classroom"
@@ -142,7 +142,7 @@ export default function LandingPage() {
         {
           id: "basic",          name: "Career Starter",          price: "$49",          buttons: [
             {
-              text: "Get Started"},
+              text: "Get Started", href: "#contact"},
           ],
           features: [
             "Access to 1 course",            "Community support",            "Basic resources"],
@@ -150,7 +150,7 @@ export default function LandingPage() {
         {
           id: "pro",          name: "Professional",          price: "$99",          buttons: [
             {
-              text: "Upgrade to Pro"},
+              text: "Upgrade to Pro", href: "#contact"},
           ],
           features: [
             "Access to all courses",            "Priority support",            "Industry projects"],
@@ -158,7 +158,7 @@ export default function LandingPage() {
         {
           id: "enterprise",          name: "SkillGrid Master",          price: "$199",          buttons: [
             {
-              text: "Get Full Access"},
+              text: "Get Full Access", href: "#contact"},
           ],
           features: [
             "All courses included",            "Mentor sessions",            "Career placement"],
@@ -235,9 +235,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       background={{
         variant: "plain"}}
-      tag="Get Started"
-      title="Join SkillGrid Today"
-      description="Sign up for our newsletter to get latest course alerts and offers."
+      tag="Enroll Today"
+      title="Begin Your Career Transformation"
+      description="Limited seats available for our next cohort. Enroll now to secure your spot and start learning from the best in the industry."
+      buttonText="Secure My Spot"
+      termsText="Join 10,000+ graduates who have already accelerated their careers. No hidden fees. Satisfaction guaranteed."
     />
   </div>
 
@@ -246,30 +248,29 @@ export default function LandingPage() {
       logoText="SkillGrid"
       columns={[
         {
-          title: "Company",          items: [
-            {
-              label: "About",              href: "#"},
-            {
-              label: "Careers",              href: "#"},
+          title: "Explore Courses",          items: [
+            { label: "Python Full Stack", href: "#catalog" },
+            { label: "Amazon FBA", href: "#catalog" },
+            { label: "Digital Marketing", href: "#catalog" },
+            { label: "UI/UX Design", href: "#catalog" },
           ],
         },
         {
-          title: "Courses",          items: [
-            {
-              label: "Programming",              href: "#catalog"},
-            {
-              label: "Marketing",              href: "#catalog"},
+          title: "The Institute",          items: [
+            { label: "About Us", href: "#" },
+            { label: "Careers", href: "#" },
+            { label: "Contact Support", href: "#contact" },
           ],
         },
         {
-          title: "Support",          items: [
-            {
-              label: "Contact",              href: "#contact"},
-            {
-              label: "FAQ",              href: "#faq"},
+          title: "Get Started",          items: [
+            { label: "Career Paths", href: "#pricing" },
+            { label: "FAQs", href: "#faq" },
+            { label: "Enrollment", href: "#contact" },
           ],
         },
       ]}
+      copyrightText="© 2025 SkillGrid Education. All rights reserved."
     />
   </div>
       </ReactLenis>
