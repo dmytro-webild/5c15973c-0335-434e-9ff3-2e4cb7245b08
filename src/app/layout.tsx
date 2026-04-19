@@ -11,8 +11,8 @@ import { Roboto } from "next/font/google";
 
 
 export const metadata: Metadata = {
-  title: 'SkillGrid | Learn Coding, Marketing & Business Skills',
-  description: 'Master programming, Amazon FBA, and digital marketing with SkillGrid. Professional training for modern careers.',
+  title: "Semzosan | Learn Shopify , Marketing & Business Skills",
+  description: "Master Shopify, Dropshipping , Built your Career with conplete visa consultation, Start affiliate marketing, Earn from american companies with Ets.",
   openGraph: {
     "title": "SkillGrid Education",
     "description": "Transform your career today.",
